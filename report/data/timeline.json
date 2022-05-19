@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-KUB28DD",
+    "children" : [ {
+      "name" : "24068-MainThread",
+      "children" : [ {
+        "name" : "test_yaml[data0]",
+        "uid" : "9bc243e18131ba12",
+        "parentUid" : "56fac7a4ee09eaea35799c6a8b32194a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652860170618,
+          "stop" : 1652860170679,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'params': {'seriesId': 395}}" ]
+      } ],
+      "uid" : "56fac7a4ee09eaea35799c6a8b32194a"
+    } ],
+    "uid" : "fb2c16917a479361b44ca97621401876"
+  } ]
+}

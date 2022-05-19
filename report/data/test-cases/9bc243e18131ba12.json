@@ -1,0 +1,57 @@
+{
+  "uid" : "9bc243e18131ba12",
+  "name" : "test_yaml[data0]",
+  "fullName" : "Test_yaml#test_yaml",
+  "historyId" : "7cd9e175c691f08e5ed20b6e4135f39d",
+  "time" : {
+    "start" : 1652860170618,
+    "stop" : 1652860170679,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test_yaml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KUB28DD"
+  }, {
+    "name" : "thread",
+    "value" : "24068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_yaml"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'params': {'seriesId': 395}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9bc243e18131ba12.json",
+  "parameterValues" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'params': {'seriesId': 395}}" ]
+}

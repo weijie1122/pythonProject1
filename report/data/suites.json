@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test_yaml",
+    "children" : [ {
+      "name" : "test_yaml[data0]",
+      "uid" : "9bc243e18131ba12",
+      "parentUid" : "f12a46efcd7f96d1c83f5b91ff281698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652860170618,
+        "stop" : 1652860170679,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'params': {'seriesId': 395}}" ]
+    } ],
+    "uid" : "f12a46efcd7f96d1c83f5b91ff281698"
+  } ]
+}
