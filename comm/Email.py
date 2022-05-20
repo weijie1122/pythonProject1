@@ -15,5 +15,5 @@ def send_email():
     yag=yagmail.SMTP(sender,senderpassword,host)
     yag.send(to=receivers,subject=title,contents=contents,attachments=attachments)
     return
-a=send_email()
+
 

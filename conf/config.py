@@ -24,5 +24,5 @@ s=c['sys']
 sql=c['smtp']
 log=c['log']
 email=c['email']
-print(email)
+
 

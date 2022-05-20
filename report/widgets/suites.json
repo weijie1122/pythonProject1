@@ -1,41 +1,8 @@
 {
-  "total" : 4,
+  "total" : 1,
   "items" : [ {
-    "uid" : "83cb250c1f49d9a96bd39b1f9e8bd860",
-    "name" : "Test_add",
-    "statistic" : {
-      "failed" : 4,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
-    "uid" : "f12a46efcd7f96d1c83f5b91ff281698",
-    "name" : "Test_yaml",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "fef3f59a7ba07f16d69b8eb95fbe0db2",
-    "name" : "Test_get",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "bf17626d252aef833684433a0d414500",
-    "name" : "Test_post",
+    "uid" : "7c852b8a4f7fb6c7a34086bd3c7b14ad",
+    "name" : "test_post",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

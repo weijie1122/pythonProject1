@@ -1,5 +1,6 @@
 import pytest
 import json
+import allure
 from comm import ApiRequest
 from comm.readexcel import OpenExcel
 @pytest.mark.parametrize('data',OpenExcel().openYaml('apis','shangjia.yaml'))
