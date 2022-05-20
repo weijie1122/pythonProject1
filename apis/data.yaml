@@ -1,5 +1,6 @@
 -
  url: 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById'
  method: get
- params:
+ data:
   seriesId: 395
+

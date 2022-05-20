@@ -1,8 +1,6 @@
 import requests
-def send_request(url,method,data=None,params=None,hearder=None):
-    return requests.request(url=url,method=method,data=data,params=params,headers=hearder)
-url='http://192.168.1.205:8000/api/moto/car/series/getSeriesById'
-method='get'
-params={'seriesId':395}
-req=requests.request(url=url,method=method,params=params)
-print(req.text)
+class send_req:
+    def send_requests(self,method,url,data=None,params=None,headers=None,cookies=None,json=None,files=None,timeout=10):
+        self.r=requests.request(method,url,data=data,params=params,headers=headers,cookies=cookies,json=json,files=files,timeout=timeout)
+        return self.r
+

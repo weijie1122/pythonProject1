@@ -2,7 +2,6 @@ from comm import FilePath
 import yaml
 import xlrd
 
-
 class OpenExcel:
 
     def openYaml(self, file, filename):
@@ -38,8 +37,6 @@ class ExcelVarles:
     case_result = "期望结果"
 
 
-
 a=OpenExcel()
 b=a.openYaml('apis','data.yaml')
-
-print(b)
+print(b[0]['data'])

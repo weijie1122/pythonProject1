@@ -1,0 +1,8 @@
+-
+ url: 'https://www.shinhwe.com:444/web/comment/saveCarSeriesComments.json'
+ method: post
+ data:
+  "content": 'zidonghuapinglun'
+  "point": 3
+  "seriesId": 211
+  "token": '2833d57f7f092b892bfbe9d13f393611'

@@ -2,16 +2,67 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Test_yaml",
+    "name" : "Test_add",
     "children" : [ {
-      "name" : "test_yaml[data0]",
-      "uid" : "9bc243e18131ba12",
-      "parentUid" : "f12a46efcd7f96d1c83f5b91ff281698",
+      "name" : "test_add[data0]",
+      "uid" : "818dfd13f0d5e7",
+      "parentUid" : "83cb250c1f49d9a96bd39b1f9e8bd860",
       "status" : "passed",
       "time" : {
-        "start" : 1652860170618,
-        "stop" : 1652860170679,
-        "duration" : 61
+        "start" : 1652940946530,
+        "stop" : 1652940946530,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'用例ID': 40.0, '用例模块': 'user40', '用例名称': 40.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+    }, {
+      "name" : "test_add[data1]",
+      "uid" : "83004b6dbe49564f",
+      "parentUid" : "83cb250c1f49d9a96bd39b1f9e8bd860",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652940946550,
+        "stop" : 1652940946551,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'用例ID': 41.0, '用例模块': 'user41', '用例名称': 41.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+    }, {
+      "name" : "test_add[data2]",
+      "uid" : "dbd45412b14aecc6",
+      "parentUid" : "83cb250c1f49d9a96bd39b1f9e8bd860",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652940947005,
+        "stop" : 1652940947007,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'用例ID': 42.0, '用例模块': 'user42', '用例名称': 42.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+    }, {
+      "name" : "testadd[data0]",
+      "uid" : "665822a2898aa188",
+      "parentUid" : "83cb250c1f49d9a96bd39b1f9e8bd860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653012301471,
+        "stop" : 1653012301472,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,8 +70,156 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'params': {'seriesId': 395}}" ]
+      "parameters" : [ "{'用例ID': 40.0, '用例模块': 'user40', '用例名称': 40.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+    }, {
+      "name" : "testadd[data1]",
+      "uid" : "4330517c39bab6d",
+      "parentUid" : "83cb250c1f49d9a96bd39b1f9e8bd860",
+      "status" : "failed",
+      "time" : {
+        "start" : 1653012301480,
+        "stop" : 1653012301480,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'用例ID': 41.0, '用例模块': 'user41', '用例名称': 41.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+    }, {
+      "name" : "testadd[data2]",
+      "uid" : "77c509e821954a58",
+      "parentUid" : "83cb250c1f49d9a96bd39b1f9e8bd860",
+      "status" : "failed",
+      "time" : {
+        "start" : 1653012301811,
+        "stop" : 1653012301812,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'用例ID': 42.0, '用例模块': 'user42', '用例名称': 42.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+    } ],
+    "uid" : "83cb250c1f49d9a96bd39b1f9e8bd860"
+  }, {
+    "name" : "Test_yaml",
+    "children" : [ {
+      "name" : "test_yaml[data0]",
+      "uid" : "f4b1cd8b441ea648",
+      "parentUid" : "f12a46efcd7f96d1c83f5b91ff281698",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652951633214,
+        "stop" : 1652951633321,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'data': {'seriesId': 395}}" ]
+    }, {
+      "name" : "test_yaml[data1]",
+      "uid" : "f82c44d4330003c4",
+      "parentUid" : "f12a46efcd7f96d1c83f5b91ff281698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652951633771,
+        "stop" : 1652951633874,
+        "duration" : 103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'url': 'https://www.shinhwe.com:444/web/comment/saveCarSeriesComments.json', 'method': 'post', 'data': {'content': 'ss', 'point': 3, 'seriesId': 211, 'token': '2833d57f7f092b892bfbe9d13f393611'}}" ]
+    }, {
+      "name" : "testrequest[data1]",
+      "uid" : "c0f7c717cdbc6f26",
+      "parentUid" : "f12a46efcd7f96d1c83f5b91ff281698",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653012289748,
+        "stop" : 1653012289749,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'url': 'https://www.shinhwe.com:444/web/comment/saveCarSeriesComments.json', 'method': 'post', 'data': {'content': 'ss', 'point': 3, 'seriesId': 211, 'token': '2833d57f7f092b892bfbe9d13f393611'}}" ]
+    }, {
+      "name" : "testrequest[data0]",
+      "uid" : "2e5f0bc710458681",
+      "parentUid" : "f12a46efcd7f96d1c83f5b91ff281698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653013107916,
+        "stop" : 1653013108457,
+        "duration" : 541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'data': {'seriesId': 395}}" ]
     } ],
     "uid" : "f12a46efcd7f96d1c83f5b91ff281698"
+  }, {
+    "name" : "Test_get",
+    "children" : [ {
+      "name" : "testrequest[data0]",
+      "uid" : "ad8ab39226e288e4",
+      "parentUid" : "fef3f59a7ba07f16d69b8eb95fbe0db2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653013962491,
+        "stop" : 1653013962649,
+        "duration" : 158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'data': {'seriesId': 395}}" ]
+    } ],
+    "uid" : "fef3f59a7ba07f16d69b8eb95fbe0db2"
+  }, {
+    "name" : "Test_post",
+    "children" : [ {
+      "name" : "testrequest[data0]",
+      "uid" : "d4b4d25768b1026c",
+      "parentUid" : "bf17626d252aef833684433a0d414500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653014095746,
+        "stop" : 1653014095844,
+        "duration" : 98
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'url': 'https://www.shinhwe.com:444/web/comment/saveCarSeriesComments.json', 'method': 'post', 'data': {'content': 'zidonghuapinglun', 'point': 3, 'seriesId': 211, 'token': '2833d57f7f092b892bfbe9d13f393611'}}" ]
+    } ],
+    "uid" : "bf17626d252aef833684433a0d414500"
   } ]
 }
