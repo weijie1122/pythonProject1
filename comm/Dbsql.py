@@ -19,7 +19,7 @@ def select_conn(conn,sql):
     return result
 
 cur=connect_sql()
-sql1='select * from ad_rules where id=1'
+sql1='select * from new_jb_leaderboard where id=1'
 a=select_conn(cur,sql1)
 print(a)
 

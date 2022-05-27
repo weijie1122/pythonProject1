@@ -6,8 +6,8 @@ from comm.readexcel import OpenExcel
 def testrequest(data):
     url=data['url']
     method=data['method']
-    data=data['data']
-    r=ApiRequest.send_req().send_requests(method,url=url,params=data)
+    params=data['data']
+    r=ApiRequest.send_req().send_main(method,url=url,params=params)
     assert r.status_code==200
 
 

@@ -8,5 +8,5 @@ def testrequest(data):
     url=data['url']
     method=data['method']
     data=data['data']
-    r=ApiRequest.send_req().send_requests(method,url=url,data=data)
+    r=ApiRequest.send_req().send_main(method,url=url,data=data)
     assert r.status_code==200

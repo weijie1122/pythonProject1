@@ -1,5 +1,72 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 41.0 == 40",
+      "children" : [ {
+        "name" : "testadd[data1]",
+        "uid" : "5e14184f3fa09602",
+        "parentUid" : "20f7d648897a2c7297085aefc4428e0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653620192355,
+          "stop" : 1653620192355,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例ID': 41.0, '用例模块': 'user41', '用例名称': 41.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+      } ],
+      "uid" : "20f7d648897a2c7297085aefc4428e0f"
+    }, {
+      "name" : "AssertionError: assert 42.0 == 40",
+      "children" : [ {
+        "name" : "testadd[data2]",
+        "uid" : "603dc4c9e9f997b0",
+        "parentUid" : "5cdad9769c4fedf25eea457cdc2a71ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653620192553,
+          "stop" : 1653620192553,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例ID': 42.0, '用例模块': 'user42', '用例名称': 42.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+      } ],
+      "uid" : "5cdad9769c4fedf25eea457cdc2a71ea"
+    }, {
+      "name" : "AssertionError: assert 401 == 200\n +  where 401 = <Response [401]>.status_code",
+      "children" : [ {
+        "name" : "testrequest[data0]",
+        "uid" : "789406ae0ddea605",
+        "parentUid" : "da4456b57aef3095c52adf94570fd943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653620192562,
+          "stop" : 1653620192692,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'data': {'seriesId': 395}}" ]
+      } ],
+      "uid" : "da4456b57aef3095c52adf94570fd943"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

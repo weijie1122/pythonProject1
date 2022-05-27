@@ -2,25 +2,105 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test_post",
+    "name" : "Testcase",
     "children" : [ {
-      "name" : "testrequest[data0]",
-      "uid" : "36737111a1040bc",
-      "parentUid" : "7d40d160ecb7b115df94aa926687de33",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653024336175,
-        "stop" : 1653024336294,
-        "duration" : 119
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "{'url': 'https://www.shinhwe.com:444/web/comment/saveCarSeriesComments.json', 'method': 'post', 'data': {'content': 'zidonghuapinglun', 'point': 3, 'seriesId': 211, 'token': '2833d57f7f092b892bfbe9d13f393611'}}" ]
+      "name" : "test_add",
+      "children" : [ {
+        "name" : "testadd[data0]",
+        "uid" : "bfbe05b0e70103fc",
+        "parentUid" : "97aa1b0af24eed575b367ef6936a276b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620192350,
+          "stop" : 1653620192350,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例ID': 40.0, '用例模块': 'user40', '用例名称': 40.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+      }, {
+        "name" : "testadd[data1]",
+        "uid" : "5e14184f3fa09602",
+        "parentUid" : "97aa1b0af24eed575b367ef6936a276b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653620192355,
+          "stop" : 1653620192355,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例ID': 41.0, '用例模块': 'user41', '用例名称': 41.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+      }, {
+        "name" : "testadd[data2]",
+        "uid" : "603dc4c9e9f997b0",
+        "parentUid" : "97aa1b0af24eed575b367ef6936a276b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653620192553,
+          "stop" : 1653620192553,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'用例ID': 42.0, '用例模块': 'user42', '用例名称': 42.0, '用例地址': 'http://192.168.1.252:6089/login', '请求方式': 'post', '请求类型': 'json', '请求参数': '{\"username\": \"kona\", \"password\": \"123456\"}', '请求头': '{\"Content-Type\":\"application/json\"}', '前置条件': '', '是否执行': 'y', '状态码': '0000', '期望结果': '登录成功'}" ]
+      } ],
+      "uid" : "97aa1b0af24eed575b367ef6936a276b"
+    }, {
+      "name" : "test_get",
+      "children" : [ {
+        "name" : "testrequest[data0]",
+        "uid" : "789406ae0ddea605",
+        "parentUid" : "8c54371a658edde3403034ac176b8097",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653620192562,
+          "stop" : 1653620192692,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://192.168.1.205:8000/api/moto/car/series/getSeriesById', 'method': 'get', 'data': {'seriesId': 395}}" ]
+      } ],
+      "uid" : "8c54371a658edde3403034ac176b8097"
+    }, {
+      "name" : "test_post",
+      "children" : [ {
+        "name" : "testrequest[data0]",
+        "uid" : "42a69bec16b50a09",
+        "parentUid" : "40293358487b35c67a0e4cdfe7d6444d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620192709,
+          "stop" : 1653620192883,
+          "duration" : 174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'https://www.shinhwe.com:444/web/comment/saveCarSeriesComments.json', 'method': 'post', 'data': {'content': 'zidonghuapinglun', 'point': 3, 'seriesId': 211, 'token': '2833d57f7f092b892bfbe9d13f393611'}}" ]
+      } ],
+      "uid" : "40293358487b35c67a0e4cdfe7d6444d"
     } ],
-    "uid" : "7d40d160ecb7b115df94aa926687de33"
+    "uid" : "1768d235bc1b7e9f03a50b9faf07df13"
   } ]
 }
